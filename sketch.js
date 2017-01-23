@@ -32,7 +32,7 @@ function preload(){
 	hitAnim = loadAnimation("assets/capeManHit01.png", "assets/capeManHit10.png")
 
 	birdImage = loadImage("assets/bird.png");
-	superBirdImage = loadImage("assets/superBird.png");
+	//superBirdImage = loadImage("assets/superBird.png");
 
 	health = 100;
 
