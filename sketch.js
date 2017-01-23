@@ -160,7 +160,7 @@ function draw() {
 		crash();
 		textAlign(CENTER);
 		textSize(50);
-		text("Game over beesh", width/2, height/2);
+		text("Watch out for those birds...", width/2, height/2);
 		text("Play again? Press ENTER", width/2, height/2+100);
 		if(keyIsPressed){
 			if(keyCode == ENTER){
