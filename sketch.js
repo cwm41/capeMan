@@ -1,6 +1,5 @@
 
 var weather;
-//var APIKey = "555736dc31c0e0dd913d8b72cc0d2c83";
 //Washington = 4140963
 
 //weather variables
@@ -24,9 +23,6 @@ var isHit, isFlying;
 var iFrameCounter;
 
 function preload(){
-	//var url = 'http://api.openweathermap.org/data/2.5/weather?id=4140963&units=imperial'+
-   '&APPID=555736dc31c0e0dd913d8b72cc0d2c83';
-	//weather = loadJSON(url);
 	flyingMotion = loadAnimation("assets/capemanSprites01.png", "assets/capemanSprites06.png");
 	fallingMotion = loadAnimation("assets/capemanFalling01.png", "assets/capemanFalling16.png");
 	hitAnim = loadAnimation("assets/capeManHit01.png", "assets/capeManHit10.png")
